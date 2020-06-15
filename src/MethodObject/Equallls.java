@@ -1,3 +1,5 @@
+package MethodObject;
+
 public class Equallls {
     String name;
     int age;
@@ -42,14 +44,17 @@ public class Equallls {
         System.out.println("Хэш код s1 = " + s1.hashCode() + ", Хэш код s22 = " + s2.hashCode());
         System.out.println();
 
-        System.out.println("Method equals:");
+        System.out.println("3. Method equals:");
         System.out.println(obj1.equals(obj2));
 
-        System.out.println("Method sravn: ");
-        System.out.println(obj1.sravn(obj2));
+        System.out.println("4. Method sravn: ");
+        System.out.println("Объект 1: " + obj1.hashCode() + " и Объект 2: " + obj2.hashCode() + " равны? "  +  obj1.sravn(obj2));
+        System.out.println();
 
-        System.out.println("Method sravnFields: ");
-        System.out.println(obj1.sravnFields(obj2));
+        System.out.println("5. Method sravnFields: ");
+        System.out.println("Объект 1: " + obj1.hashCode() + " и Объект 2: " + obj2.hashCode() + " равны? "+ obj1.sravnFields(obj2));
+
+
 
     }
 }
