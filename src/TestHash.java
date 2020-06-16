@@ -23,7 +23,8 @@ public class TestHash {
         System.out.println("1");
         s1.add(h1);
         System.out.println("2");
-        s1.add(h2);
+
+
 
         System.out.println("Size of set = " + s1.size());
 
