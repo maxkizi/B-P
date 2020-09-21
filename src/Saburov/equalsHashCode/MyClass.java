@@ -1,4 +1,4 @@
-package equalsHashCodeSaburov;
+package Saburov.equalsHashCode;
 
 public class MyClass {
     Long id;
@@ -25,11 +25,11 @@ public class MyClass {
         this.name = name;
     }
 
-    /*public boolean equals (Object obj){
-        System.out.println("Equals is called " + this + ": " + obj);
-        MyClass other = (MyClass) obj;
-        return id.equals(other.id) && name.equals(other.name);
-    }*/
+//    public boolean equals (Object obj){
+//        System.out.println("Equals is called " + this + ": " + obj);
+//        MyClass other = (MyClass) obj;
+//        return id.equals(other.id) && name.equals(other.name);
+//    }
 
     @Override
     public String toString() {
@@ -39,8 +39,8 @@ public class MyClass {
                 '}';
     }
 
-   /* public int hashCode (){
+    public int hashCode (){
         System.out.println("HashCode is called " + this);
         return id.intValue();
-    }*/
+    }
 }
