@@ -17,6 +17,7 @@ public class Starter3 {
 
         for (Double d: grades){
             System.out.println(d);
+            //
         }
     }
 }
